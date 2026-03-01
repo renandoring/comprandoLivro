@@ -3,9 +3,9 @@ package br.com.alura.livro.model;
 import java.util.Scanner;
 
 public class Livro {
-    private String title = "XXX XXX";
-    private String author = "AAAA AAAA";
-    private double year = 1.954;
+    private String title;
+    private String author;
+    private double year = 0;
 
     public double getYear() {
         return year;
@@ -31,6 +31,12 @@ public class Livro {
         this.author = author;
     }
 
+    public Livro(String title, String author, double year) {
+        this.title = title;
+        this.author = author;
+        this.year = year;
+    }
+
     //Technique specifications
     public void specifications(){
         System.out.println("The title of book is: " + title +
@@ -50,5 +56,12 @@ public class Livro {
         } else {
             System.out.println("The book is a new release");
         }
+    }
+
+    @Override
+    public String toString() {
+        return "Title of Book: " + getTitle() +
+                "\nAuthor:" + getAuthor() +
+                "\nYear of release: " + getYear() + "\n";
     }
 }
