@@ -1,3 +1,5 @@
+package br.com.alura.livro.model;
+
 import java.util.Scanner;
 
 public class Livro {
