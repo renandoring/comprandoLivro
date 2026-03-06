@@ -1,0 +1,32 @@
+[
+  {
+    "Title": "Harry Potter",
+    "Author": "JK Rowling",
+    "Year": 250.0
+  },
+  {
+    "Title": "Box Sandman",
+    "Author": "Neil Gaiman",
+    "Year": 350.0
+  },
+  {
+    "Title": "Senhor dos Anéis",
+    "Author": "JRR Tolkien",
+    "Year": 450.0
+  },
+  {
+    "Title": "Bruxa de Blair",
+    "Author": "XXXXX",
+    "Year": 250.0
+  },
+  {
+    "Title": "Animais Fantásticos",
+    "Author": "NNNNN",
+    "Year": 350.0
+  },
+  {
+    "Title": "Templários",
+    "Author": "LLLLLL",
+    "Year": 450.0
+  }
+]
